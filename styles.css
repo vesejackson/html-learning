@@ -1,9 +1,36 @@
-.red-text{
-    color: red;
+* {
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
 }
-.font-sm{
-    font-size: 10px;
+div.heading {
+    text-align: center;
+    background-color: red; 
+    padding: 10px;
 }
-p.text-r{
-    text-align: right;
+div.heading h1 {
+    color: white;
+    border: 4px white solid;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 30px;
+}
+ header img{
+    width: 100%;
+    border-bottom: 8px red solid;
+}
+div.links {
+    background-color: grey;
+    text-align: center;
+}
+div.links ul li {
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+div.links ul li a {
+    color: white;
+    text-decoration: none;
 }
