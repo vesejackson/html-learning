@@ -15,7 +15,7 @@ div.heading h1 {
     padding: 10px;
     border-radius: 30px;
 }
- header img{
+header img{
     width: 100%;
     border-bottom: 8px red solid;
 }
@@ -33,4 +33,37 @@ div.links ul li {
 div.links ul li a {
     color: white;
     text-decoration: none;
+}
+div.content {
+    text-align: center;
+    margin: 50px;
+}
+div.content h2 {
+    font-size: 50px;
+    color: red;
+
+}
+div.content p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 50px;
+}
+div.form-container {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 40px;
+}
+div.form-container form label {
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+div.form-container form input {
+    border-radius: 30px;
+    border: red 4px solid;
+    font-size: 30px;
+}
+footer div.heading h1 {
+    border: none;
 }
