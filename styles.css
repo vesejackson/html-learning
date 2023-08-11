@@ -63,6 +63,7 @@ div.form-container form input {
     border-radius: 30px;
     border: red 4px solid;
     font-size: 30px;
+    text-align: center;
 }
 footer div.heading h1 {
     border: none;
