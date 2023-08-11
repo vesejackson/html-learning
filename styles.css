@@ -22,6 +22,7 @@ header img{
 div.links {
     background-color: grey;
     text-align: center;
+    
 }
 div.links ul li {
     display: inline;
@@ -33,6 +34,11 @@ div.links ul li {
 div.links ul li a {
     color: white;
     text-decoration: none;
+}
+div.links ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
 }
 div.content {
     text-align: center;
@@ -67,4 +73,15 @@ div.form-container form input {
 }
 footer div.heading h1 {
     border: none;
+}
+div.image-container {}
+div.image-container img {
+    width: 40%;
+    display: inline-block;
+    margin: 4px;
+    border-bottom: 4px red solid;
+}
+div.image-container img:hover {
+    border-bottom: none;
+    border-top: red 4px solid;
 }
